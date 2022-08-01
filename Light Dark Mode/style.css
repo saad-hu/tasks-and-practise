@@ -1,0 +1,34 @@
+:root.dark {   /*  or html.dark */
+    --textColor: white;
+    --backgroundColorBase: black;
+    --borderColorBtn: white;
+    --backgroundColorBtn: rgb(54, 54, 54);
+}
+
+:root.light {   /*  or html.light */
+    --textColor: black;
+    --backgroundColorBase: white;
+    --borderColorBtn: black;
+    --backgroundColorBtn: rgb(170, 170, 170);
+}
+
+:root {
+    background-color: var(--backgroundColorBase);
+    font-size: 25px;
+}
+
+p,span {
+    color: var(--textColor);
+}
+
+button {
+    border: var(--borderColorBtn) 2px solid;
+    background-color: var(--backgroundColorBtn);
+    color: var(--textColor);
+    padding: 5px 10px;
+    font-size: 20px;
+
+}
+
+
+
